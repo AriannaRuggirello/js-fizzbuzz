@@ -46,7 +46,7 @@ for(let i = 1; i <= 100; i++){
       output = i;
         // console.log(i);
     }
-  
+//   stampare il messaggio al posto del numero
     square.innerHTML= output;
     
 }
