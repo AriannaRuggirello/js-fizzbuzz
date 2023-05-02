@@ -26,16 +26,19 @@ for(let i = 1; i <= 100; i++){
     if(i % 3 == 0 && i % 5 == 0){
           // Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”
           output = "FizzBuzz";
+          square.style.backgroundColor = "#f0466f";
           // console.log("fizzbuzz");
     }
     else if(i % 5 == 0){
         // per i multipli di 5 stampi “Buzz”
         output = "Buzz";
+        square.style.backgroundColor = "#ffd166";
         // console.log("buzz");
     }
     else if(i % 3 == 0){
        // multipli di 3 stampi “Fizz” al posto del numero
        output = "Fizz";
+       square.style.backgroundColor = "#0cd6a1";
        // console.log("fizz");
     }
     else{
@@ -44,8 +47,7 @@ for(let i = 1; i <= 100; i++){
         // console.log(i);
     }
   
-    square.append(output)
-
+    square.innerHTML= output;
     
 }
     

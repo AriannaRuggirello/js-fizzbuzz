@@ -17,20 +17,15 @@ main{
 #content{
     display: flex;
     flex-wrap: wrap;
-    
-    
 }
 
 .fill{
-   
     width: calc(10% - 10px);
     height: 50px;
     margin: 5px;
     background-color: #1389b2;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
