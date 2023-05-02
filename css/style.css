@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: #083b4c;
+} */
+
+main{
+    width: 70%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.fill{
+   
+    width: calc(10% - 10px);
+    height: 50px;
+    margin: 5px;
+    background-color: #1389b2;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
