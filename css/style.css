@@ -9,8 +9,9 @@ body{
 }
 
 main{
-    width: 70%;
-    margin: 100px auto;
+    width: 100vh;
+    height: 100vh;
+    margin: 30px auto;
     text-align: center;
 }
  h1{
@@ -28,6 +29,7 @@ main{
     width: calc(10% - 10px);
     height: 50px;
     margin: 5px;
+  
     background-color: #1389b2;
     display: flex;
     justify-content: center;
